@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirstActivity</string>
+    <string name="channel_name" />
+    <string name="channel_dec" />
+    <string-array name="my_color">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+    </string-array>
+    <string-array name="my_color_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

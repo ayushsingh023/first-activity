@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.firstactivity">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name=".MusicServices"></activity>
+        <activity android:name=".EmployeeRecord" />
+        <activity android:name=".EmployeeRegistration" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".WifiDemo" />
+        <activity android:name=".BluetoothDemo" />
+        <activity android:name=".SimpleCalculator" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TicTacToe" />
+        <activity android:name=".PrefrenceFromXML" />
+        <activity android:name=".WebViewDemo" />
+        <activity android:name=".StudentRecord" />
+        <activity android:name=".FileDemo" />
+        <activity android:name=".SongList" />
+        <activity android:name=".Music" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProximityDemo" />
+        <activity android:name=".AccSensor" />
+        <activity android:name=".SensorList" />
+        <activity android:name=".NotificationDemo" />
+        <activity android:name=".Result" />
+        <activity android:name=".MenuDemo" />
+        <activity android:name=".Previous" />
+        <activity android:name=".Next" />
+        <activity android:name=".SendData" />
+        <activity android:name=".GetData" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".RegisterStudent" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".MyMenu" />
+        <activity android:name=".ColourPicker" />
+        <activity android:name=".HideAndSeek" />
+        <activity android:name=".ActivityLifeCycle" />
+        <activity android:name=".MathsOperation" />
+        <activity android:name=".CounterActivity" />
+        <activity android:name=".FirstActivity" />
+
+        <receiver android:name=".model.MyBroadCast" />
+        <receiver android:name=".model.BluetoothBroadCast" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SendData">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:id="@+id/name"
+    android:hint="ENTER YOUR NAME"
+    android:layout_marginBottom="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/address"
+        android:hint="ENTER YOUR ADDRESS"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/senddata"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:text="SEND DATA"
+        android:background="@drawable/button_design"/>
+</LinearLayout>

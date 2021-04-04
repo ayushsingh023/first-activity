@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    tools:context=".MusicServices">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="START ACTIVITY"
+    android:textSize="24sp"
+    android:id="@+id/start"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="STOP` ACTIVITY"
+    android:textSize="24sp"
+    android:id="@+id/stop"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GET THE NUMBER"
+    android:textSize="24sp"
+    android:id="@+id/getnum"/>
+</LinearLayout>

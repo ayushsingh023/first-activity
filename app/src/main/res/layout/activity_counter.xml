@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#934747"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CounterActivity">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#2196F3"
+        android:text="COUNT : 0"
+        android:textAlignment="center"
+        android:textColor="#31067E"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#4DB80A"
+        android:text="INCREMENT"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#E91E63"
+        android:text="DECREMENT"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#CDDC39"
+        android:text="RESET"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+</LinearLayout>

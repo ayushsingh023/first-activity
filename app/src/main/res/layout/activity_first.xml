@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FA9595"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome in My First App"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        android:textColor="#C120CD"
+        android:textStyle="bold"
+        android:background="#010E3C"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup"
+        android:text="POPUP MENU"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

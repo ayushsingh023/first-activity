@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterStudent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="4dp"
+    android:layout_height="56dp"
+    android:text="REGISTRATION FORM"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:gravity="center"
+    />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_marginBottom="4dp"
+      android:layout_height="56dp"
+      android:hint="Enter ID"
+      android:id="@+id/sid"
+      android:textSize="30sp"
+      android:gravity="center"
+      />
+  <EditText
+      android:layout_marginBottom="4dp"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:hint="Enter NAME"
+      android:id="@+id/sname"
+      android:textSize="30sp"
+      android:gravity="center"
+      />
+  <EditText
+      android:layout_marginBottom="4dp"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:hint="Enter ADDRESS"
+      android:id="@+id/sadd"
+      android:textSize="30sp"
+      android:gravity="center"
+      />
+  <EditText
+      android:layout_marginBottom="4dp"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:hint="Enter AGE"
+      android:id="@+id/sage"
+      android:textSize="30sp"
+      android:gravity="center"
+      />
+  <EditText
+      android:layout_marginBottom="4dp"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:hint="Enter BRANCH"
+      android:id="@+id/sbranch"
+      android:textSize="25sp"
+      android:gravity="center"
+
+      />
+    <Button
+        android:layout_marginBottom="8dp"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:id="@+id/register"
+        android:hint="REGISTER"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_design"
+        />
+</LinearLayout>
